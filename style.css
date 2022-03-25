@@ -3,8 +3,13 @@
   border: 1px solid black;
 }
 
+.h200{
+  height: 200px;
+}
+
 .jumbotron{
   height: 300px;
   text-align: center;
   line-height: 300px;
 }
+
