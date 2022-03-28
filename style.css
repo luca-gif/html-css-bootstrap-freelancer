@@ -29,13 +29,14 @@ ul{
   margin-bottom: 0;
 }
 
-.jumbotron{
+/* JUMBOTRON */
+
+.jumbotron, .about{
   background-color: #1abc9c;
   color: #fff;
 }
 
 .jumbotron .jumbo-content{
-  height: 300px;
   margin: auto;
   text-align: center;
   border: 1px solid black;
@@ -43,12 +44,32 @@ ul{
 }
 
 
-.jumbotron .jumbo-content h2{
-  font-size: 50px;
+h2{
+  font-size: 40px;
   font-weight: 600;
 }
 
 .jumbotron .jumbo-content img{
   height: 150px;
+}
+
+/* MAIN */
+
+main img{
+  width: 100%;
+}
+
+
+.lm-card{
+  padding: 10px;
+}
+
+.lm-card img{
+  border-radius: 10px;
+}
+
+.lm-container{
+  width: 90%;
+  margin: auto;
 }
 
