@@ -5,6 +5,13 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+    crossorigin="anonymous"></script>
+
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
@@ -16,20 +23,27 @@
 
   <header>
 
-    <div class="container">
+    <nav class="debug container">
 
-      <div class="row">
+      <div class="row justify-content-between align-items-center">
 
-        <div class="debug col">
-          <h2>Start Bootstrap</h2>
+        <div class="col-10 col-md-6 debug">sx</div>
+
+        <div class="col-6 debug d-none d-md-block text-end">
+
+          <ul>
+            <li>Portfolio</li>
+            <li>About</li>
+            <li>Contact</li>
+          </ul>
+
         </div>
 
-        <div class="debug col">
-          Burger
-        </div>
+        <div class="col-2 d-md-none">Burger</div>
 
       </div>
-    </div>
+
+    </nav>
 
   </header>
 
@@ -47,13 +61,14 @@
 
     <div class="container debug">
 
-      <div class="row">
-        <div class="col-sm-12 col-md-6 col-lg-4 debug h200">ciao</div>
-        <div class="col-sm-12 col-md-6 col-lg-4 debug h200">ciao</div>
-        <div class="col-sm-12 col-md-6 col-lg-4 debug h200">ciao</div>
-        <div class="col-sm-12 col-md-6 col-lg-4 debug h200">ciao</div>
-        <div class="col-sm-12 col-md-6 col-lg-4 debug h200">ciao</div>
-        <div class="col-sm-12 col-md-6 col-lg-4 debug h200">ciao</div>
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+
+        <div class="debug h200">ciao</div>
+        <div class="debug h200">ciao</div>
+        <div class="debug h200">ciao</div>
+        <div class="debug h200">ciao</div>
+        <div class="debug h200">ciao</div>
+        <div class="debug h200">ciao</div>
 
       </div>
     </div>
@@ -61,7 +76,7 @@
     <div class="container-fluid debug">
 
       <div class="container debug h200">
-
+        about
       </div>
 
     </div>
@@ -76,9 +91,9 @@
 
         <div class="row">
 
-          <div class="col-sm-12 col-md-4 col-lg-4 debug h100">ciao</div>
-          <div class="col-sm-12 col-md-4 col-lg-4 debug h100">ciao</div>
-          <div class="col-sm-12 col-md-4 col-lg-4 debug h100">ciao</div>
+          <div class="col-sm-12 col-md-4 debug h100">ciao</div>
+          <div class="col-sm-12 col-md-4 debug h100">ciao</div>
+          <div class="col-sm-12 col-md-4 debug h100">ciao</div>
 
         </div>
 

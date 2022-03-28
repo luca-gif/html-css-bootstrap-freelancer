@@ -15,9 +15,32 @@
   height: 300px;
 }
 
+/*
+  HEADER
+*/
+header{
+  height: 80px;
+}
+
+header nav{
+  height: 100%;
+}
+
+header nav .row{
+  height: 100%;
+}
+
 .jumbotron{
   height: 300px;
   text-align: center;
   line-height: 300px;
 }
 
+ul li{
+  list-style: none;
+  display: inline-block;
+}
+
+ul{
+  margin-bottom: 0;
+}
